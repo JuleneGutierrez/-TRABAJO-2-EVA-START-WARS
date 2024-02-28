@@ -6,7 +6,7 @@ function inicio()
     /*Se añade el css al body */
     $("body").css({
         'background-color': 'black',
-        'background-image': 'url("../bg.png")',
+        'background-image': 'url("./bg.png")',
         'background-repeat': 'no-repeat',
         'background-size': '100% 400%',
         'font-family': '"starWars", Arial, sans-serif',
@@ -49,7 +49,7 @@ function inicio()
     $('.carta').css({
         'width': '15%',
         'height': 'auto',
-        'background-image': 'url("../card_bg.jpg")',
+        'background-image': 'url("./card_bg.jpg")',
         'position': 'absolute',
         'border': '2px solid',
         'border-radius': '25px',
@@ -296,7 +296,7 @@ function creacionDatosDiv(datosPersonaje)
         
         'width': '15%',
         'height': 'auto',
-        'background-image': 'url("../card_bg.jpg")',
+        'background-image': 'url("./card_bg.jpg")',
         'position': 'absolute',
         'border': '2px solid',
         'border-radius': '25px',
