@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'starWars';
+    src: url('../STARWARS.otf') format('opentype'), /* Para OpenType (.otf) */
+         url('../STARWARS.woff') format('woff'), /* Para Web Open Font Format (.woff) */
+         url('../STARWARS.ttf') format('truetype'); /* Para TrueType (.ttf) */
+}
+
+@keyframes moveBackground {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 75%;
+    }
+}
+
+/* body {
+    background-color: black;
+    background-image: url("../bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 400%;
+    font-family: 'starWars', Arial, sans-serif;
+    color: rgba(255, 217, 3, 0.797);
+    animation: moveBackground 2.5s linear infinite;
+} */
+
+/* #divGeneral {
+    width: 100%;
+    height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    perspective: 1200;
+
+} */
+
+/* .carta {
+
+    width: 15%;
+    height: auto;
+    background-image: url("../card_bg.jpg");
+    position: absolute;
+    border: 2px solid;
+    border-radius: 25px;
+    margin-right: 0%;
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.5s;
+    transform-origin: bottom center;
+    cursor: pointer;
+    box-shadow: 0 0px 30px rgba(255, 217, 3, 0.797);
+
+
+
+
+} */
+
+/* .carta:nth-child(1){transform: rotate(-40deg);}
+.carta:nth-child(2){transform: rotate(-15deg);}
+.carta:nth-child(3){transform: rotate(0deg);}
+.carta:nth-child(4){transform: rotate(15deg);}
+.carta:nth-child(5){transform: rotate(40deg);} */
+
+/* #c1
+{
+    right: 51%;
+   
+} */
+
+/* #c2
+{
+    right: 46%;
+    margin-top: 1%;
+} */
+/* 
+#c3
+{
+    position: absolute;
+    transform: translateY(-35px);
+    z-index: 10;
+    
+} */
+
+/* #c4
+{
+    left: 46%;
+} */
+
+/* #c5
+{
+    left: 51%;
+} */
+
+
+/* #c2, #c4
+{
+    z-index: 8;
+} */
+/* 
+#c2
+{
+    z-index: 9;
+} */
+
+/* .personaje {
+    box-shadow: 40px 40px 40px 5px rgba(0, 0, 0, 0.6);
+} */
+
+/* h1 {
+    text-align: center;
+    margin-top: 10%;
+    font-size: x-large;
+
+} */
+
+/* #titulo2 {
+    margin-bottom: 0%;
+} */
+
+/* #imagen2 {
+    margin-top: 0%;
+} */
+
+/* #informacion{
+    margin-left: 20px;
+    padding: 20px;
+    color: black;
+
+    position: absolute;
+    
+    transform: translateY(-500px);
+} */
+
+/* #informacion li{
+    margin: 5px;
+} */
